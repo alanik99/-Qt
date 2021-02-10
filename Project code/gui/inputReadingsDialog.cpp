@@ -87,6 +87,7 @@ void InputReadingsDialog::DisplaySlot(const QString& s)
     {
         inputDefAndForce->setVisible(false);
         inputMeas->setVisible(true);
+        update();
     }
 }
 
