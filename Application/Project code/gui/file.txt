@@ -1,0 +1,18 @@
+//DD, name, location, measrment, lim, model
+
+DD DD-1 chamber 50 60 MPM289
+DD DD-2 rocket 40 20 MPM290
+DD DD-3 chamber 15 10 MPM291
+
+
+//DT, name, location, measrment, lim, model, precision
+
+DT DT-1 noozle 100 150 DS18B20 1
+DT DT-2 rocket 140 120 DS18B20+ 2
+DT DT-3 chamber 115 110 AD597ARZ 3
+
+
+//TD, name, location, eps, F
+
+TD TD-1 chamber 17 40
+TD TD-2 rocket 14 35
